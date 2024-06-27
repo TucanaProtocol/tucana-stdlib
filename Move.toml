@@ -1,0 +1,10 @@
+[package]
+name = "TucanaStdlib"
+version = "0.0.0"
+
+[dependencies]
+InitiaStdlib = { git = "https://github.com/initia-labs/movevm.git", subdir = "precompile/modules/initia_stdlib", rev = "main" }
+
+[addresses]
+std =  "0x1"
+tucana_std = "0x3933c6ab1a6f84e9cda13ae78f389666c9b83e69"
